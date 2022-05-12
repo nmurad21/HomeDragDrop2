@@ -1,0 +1,34 @@
+body {
+    background-color: rgba(2, 2, 255, 0.769);
+    .todo-wrapper {
+      display: flex;
+      justify-content: center;
+      .todo-box {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 50px;
+        .input-box {
+          form {
+            display: flex;
+            .btn {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+      .todo-list-item {
+        background-color: #c1e4e3;
+        margin-top: 20px;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .remove-btn {
+          background-color: blue;
+          color: #fff;
+        }
+      }
+    }
+  }

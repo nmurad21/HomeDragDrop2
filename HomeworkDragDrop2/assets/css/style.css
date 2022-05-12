@@ -1,0 +1,60 @@
+body {
+  background-color: rgba(2, 2, 255, 0.769);
+}
+
+body .todo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .todo-wrapper .todo-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+body .todo-wrapper .todo-box .input-box form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .todo-wrapper .todo-box .input-box form .btn {
+  margin-left: 10px;
+}
+
+body .todo-wrapper .todo-list-item {
+  background-color: #c1e4e3;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .todo-wrapper .todo-list-item .remove-btn {
+  background-color: blue;
+  color: #fff;
+}
+
+.drag-box {
+  width: 300px;
+  height: 340px;
+  margin-top: 5%;
+  margin-left: 3%;
+  border: none;
+  border-radius: 3%;
+  background-color: white;
+}
